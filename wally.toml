@@ -1,7 +1,9 @@
 [package]
 name = "ocipa/collection"
-version = "0.0.0"
+version = "0.1.0"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
+
+exclude = ["test*", "Test*"]
 
 [dependencies]
