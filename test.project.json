@@ -1,0 +1,28 @@
+{
+    "name": "Collection",
+    "tree": {
+      "$className": "DataModel",
+  
+      "Players": {
+        "$className": "Players",
+  
+        "$properties": {
+          "CharacterAutoLoads": false
+        }
+      },
+  
+      "ReplicatedStorage": {
+        "$className": "ReplicatedStorage",
+  
+        "Collection": {
+          "$path": "src"
+        }
+      },
+  
+      "ServerScriptService": {
+        "$className": "ServerScriptService",
+  
+        "$path": "Test"
+      }
+    }
+  }
